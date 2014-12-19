@@ -1,5 +1,5 @@
-#ifndef __INCLUDEDEF_H__
-#define __INCLUDEDEF_H__
+#ifndef __INCLUDED_H__
+#define __INCLUDED_H__
 
 
 #include "definition.h"
