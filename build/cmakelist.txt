@@ -1,3 +1,9 @@
+project (function)
+
+cmake_minimum_required (VERSION 2.6)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 
-project{ functions }
+
+set(functions main.cpp init.h client.h client.cpp server.h server.cpp)
+add_executable(function ${functions})
