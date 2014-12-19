@@ -6,16 +6,16 @@
 #include <limits>
 
 //taylor series
-trig::trigsin(int value)
+float trig::trigsin(int value)
 {
   
 }
-trig::trigcos(int value)
+float trig::trigcos(int value)
 {
 
 }
 
-trig::trigtan(int value)
+float trig::trigtan(int value)
 {
   //summation
   for(int i = 0;i < INFINITY; i++)
