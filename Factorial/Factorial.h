@@ -7,7 +7,5 @@ class factorial
 {
     public:
     int factorial(int value);
-    private:
-    int factorial = 0;
 };
 #endif
