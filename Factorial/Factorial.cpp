@@ -5,11 +5,10 @@
 
 int factorial::factorial(int value)
 {
-    for(int a = 1;a <= value; a++)
+    int factorial = 1;
+    for(int a=1;a<=value;a++)
     {
-
-        factorial=factorial*a;
-
+        factorial = factorial*a;
     }
     return factorial;
 }
