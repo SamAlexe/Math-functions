@@ -3,11 +3,12 @@ Math-functions
 
 A many math functions explicitly defined
 
-Trig ==============
+Trig 
+==============
 Sin
 Cos 
 Tan
-
+==============
 Arcsin
 Arccos
 ArcTan
@@ -34,10 +35,16 @@ Installation:
 ==================
 
 MAKEFILE - 
+==============
 make
 
 
 CMAKE - 
+==============
 cmake -G "Unix Makefiles"
 
 make
+
+Testing
+==============
+make test 
