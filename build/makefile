@@ -4,14 +4,15 @@ DEBUG = -g
 CFLAGS = -Wall -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)            
 
-main.o: main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp
+main.o : main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp
     $(CC) $(CFLAGS) main.cpp
-
-p1 : $(OBJS)
-    $(CC) $(LFLAGS) $(OBJS) -o p1
     
-    clean:
+
+main : $(OBJS)
+    $(CC) $(LFLAGS) $(OBJS) -o main
+    
+clean :
     \rm *.o *~ p1
 
-tar:
+tar :
     tar cfv p1.tar main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp/
