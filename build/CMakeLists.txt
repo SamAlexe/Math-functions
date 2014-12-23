@@ -7,7 +7,7 @@ project (mathfunc)
 
 
 
-set(mathfunc )
+set(mathfunc main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp)
 add_executable(math ${mathfunc})
 
 
