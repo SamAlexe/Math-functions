@@ -3,7 +3,7 @@ Math-functions
 
 A many math functions explicitly defined
 
-Trig -
+Trig _-_
 Sin
 Cos 
 Tan
@@ -13,11 +13,12 @@ Arccos
 ArcTan
 
 Advanced Calculus - Number Theory
+_-_
 
 Bernoulli
 Zeta
 
-Factorial
+Factorial _-_
 
 
 
