@@ -4,7 +4,7 @@ DEBUG = -g
 CFLAGS = -Wall -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)            
 
-main.o: main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp
+main.o: main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp
     $(CC) $(CFLAGS) main.cpp
 
 p1 : $(OBJS)
@@ -14,5 +14,4 @@ p1 : $(OBJS)
     \rm *.o *~ p1
 
 tar:
-    tar cfv p1.tar Movie.h Movie.cpp Name.h Name.cpp NameList.h \
-            NameList.cpp  Iterator.cpp Iterator.h
+    tar cfv p1.tar main.cpp factorial.cpp factorial.h bernoulli.h bernoulli.cpp trig.h trig.cpp definition.h include.h Zeta.cpp/
