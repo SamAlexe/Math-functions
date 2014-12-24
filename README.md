@@ -5,25 +5,25 @@ A many math functions explicitly defined
 
 Trig 
 ==============
-Sin
-Cos 
-Tan
-==============
-Arcsin
-Arccos
-ArcTan
+-Sin
+-Cos 
+-Tan
+-Arcsin
+-Arccos
+-ArcTan
 
 Advanced Calculus - Number Theory
 ==============
 
-Bernoulli
-Zeta
+-Bernoulli
+-Zeta
 
 Factorial
 
 ==============
 
-Calculate pi
+-Calculate pi
+
 
 
 
