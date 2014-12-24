@@ -18,14 +18,11 @@ Advanced Calculus - Number Theory
 -Bernoulli
 -Zeta
 
-Factorial
 
+Factorial
 ==============
 
 -Calculate pi
-
-
-
 
 
 
