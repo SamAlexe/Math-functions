@@ -21,7 +21,6 @@ Trig
 
 Advanced Calculus - Number Theory
 ==============
-
 -Bernoulli
 -Zeta
 
@@ -32,23 +31,17 @@ Factorial
 -Calculate pi
 
 
-
-
 Installation:
-
 ==================
-
 MAKEFILE - 
-==============
+-----------------
 make
 
-
 CMAKE - 
-==============
+-----------------
 cmake -G "Unix Makefiles"
-
 make
 
 Testing
-==============
+-----------------
 make test 
