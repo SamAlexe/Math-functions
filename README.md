@@ -6,13 +6,10 @@ Created by: Brian Huang
 Math-functions
 ==============
 
-A many math functions explicitly defined
 
-Trig 
+Trignometric Function
 
 Advanced Calculus 
-
-Factorial
 
 Various Mathematical Functions
 
@@ -29,10 +26,12 @@ Various Mathematical Functions
 Random
 ==============
 Random Number Generator
-- MT_19937 version of Mersenne Twister(PRNG) Implementation
-Probability
--Random distributions like Bernoulli and binomial
+ 
+ -MT_19937 version of Mersenne Twister(PRNG) Implementation
 
+Probability
+
+-Random distributions like Bernoulli and binomial
 
 
 Installation:
@@ -46,6 +45,4 @@ CMAKE -
 -----------------
 cmake
 make
-
-Testing
 
