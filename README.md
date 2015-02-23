@@ -9,13 +9,21 @@ Math-functions
 A many math functions explicitly defined
 
 Trig 
+
 Advanced Calculus 
+
 Factorial
+
 Various Mathematical Functions
+
 -Phi
+
 -Omega
+
 -Gamma
+
 -Beta
+
 
 
 Random
