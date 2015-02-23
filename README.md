@@ -12,8 +12,6 @@ Math-functions
 
 Trignometric Function
 
-Advanced Calculus 
-
 Various Mathematical Functions
 
 -Phi
@@ -23,6 +21,15 @@ Various Mathematical Functions
 -Gamma
 
 -Beta
+
+-Bernoulli
+
+-Zeta
+
+
+Matrix
+
+Able to calculate Cofactor, Determinant, Adjoint and Inverse of a matrix
 
 
 
