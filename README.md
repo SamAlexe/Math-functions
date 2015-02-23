@@ -1,8 +1,6 @@
 ==============
 Created by: Brian Huang
-
 12/24/14
-
 ==============
 
 Math-functions
@@ -11,37 +9,35 @@ Math-functions
 A many math functions explicitly defined
 
 Trig 
-==============
--Sin
--Cos 
--Tan
--Arcsin
--Arccos
--ArcTan
-
-Advanced Calculus - Number Theory
-==============
--Bernoulli
--Zeta
-
-
+Advanced Calculus 
 Factorial
-==============
+Various Mathematical Functions
+-Phi
+-Omega
+-Gamma
+-Beta
 
--Calculate pi
+
+Random
+==============
+Random Number Generator
+- MT_19937 version of Mersenne Twister(PRNG) Implementation
+Probability
+-Random distributions like Bernoulli and binomial
+
 
 
 Installation:
 ==================
+
 MAKEFILE - 
 -----------------
 make
 
 CMAKE - 
 -----------------
-cmake -G "Unix Makefiles"
+cmake
 make
 
 Testing
------------------
-make test 
+
